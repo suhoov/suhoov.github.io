@@ -1,0 +1,1812 @@
+tobiz.sections = [
+    {
+        name: 'Шапка и подвал',
+        icon: 'fa fa-graduation-cap',
+        blocks: [
+            {
+                id: 107,
+                default: 1,
+                position: 1100,
+                default_values: {}
+            },
+            {
+                id: 105,
+                default: 1,
+                position: 1200,
+                default_values: {}
+            },
+            {
+                id: 103,
+                default: 1,
+                position: 1300,
+                default_values: {}
+            },
+            {
+                id: 101,
+                default: 1,
+                position: 1400,
+                default_values: {}
+            },
+            {
+                id: 119,
+                default: 1,
+                position: 1500,
+                default_values: {}
+            }
+        ],
+        group: [107,105,103,101,119],
+        deleted: [3, 5, 7, 9, 8, 6, 4, 2, 1, 19],
+        widget: 0
+    },
+    {
+        name: 'Меню',
+        icon: 'fa fa-reorder',
+        blocks:[
+            {
+                id: 116,
+                default: 1,
+                position: 2100,
+                default_values: {}            
+            },
+            {
+                id: 302,
+                default: 1,
+                position: 2200,
+                default_values: {}            
+            },
+            {
+                id: 302,
+                default: 0,
+                position: 2300,
+                default_values: {
+                    use_video:1
+                    
+                }            
+            },
+            
+        ],
+        
+        group: [116, 302],
+        deleted: [16],
+        widget: 0
+    },
+    {
+        name: 'Фоновое изображение',
+        icon: 'fa fa-crosshairs',
+        blocks:[
+            {
+                id: 153,
+                default: 1,
+                position: 3100,
+                default_values: {}            
+            },            
+            {
+                id: 153,
+                default: 0,
+                position: 3200,
+                default_values: {
+                    video_bg: 'https://youtu.be/HLgBKBAobOg',
+                    use_videobg: 'use',
+                    
+                }            
+            },            
+            {
+                id: 153,
+                default: 0,
+                position: 3300,
+                default_values: {
+                    big: 0,
+                    mode: '1',
+                    title: '<br />Туры в Таиланд с 40% скидкой!',
+                    bg_image: 'image_4.jpg',
+                    fixed:1
+                    
+                }            
+            },            
+            {
+                id: 153,
+                default: 0,
+                position: 3400,
+                default_values: {
+                    big: 0,
+                    mode: '2',
+                    title: '<br />Туры в Таиланд с 40% скидкой!',
+                    bg_image: 'image_7.jpg',
+                }            
+            },            
+            {
+                id: 154,
+                default: 1,
+                position: 3500,
+                default_values: {}            
+            },            
+            {
+                id: 154,
+                default: 0,
+                position: 3600,
+                default_values: {
+                    revers:1,
+                    show_timer:1,
+                    bg_image: 'image_11.jpg',
+                    pattern: 'pattern_11.png',
+                    
+                }            
+            },            
+            {
+                id: 311,
+                default: 1,
+                position: 3700,
+                default_values: {}            
+            },            
+            
+        ],
+        
+        group: [153, 154, 311],
+        deleted: [53, 58, 54, 59, 57, 56, 55, 60],
+        widget: 0
+    },
+    {
+        name: 'Кнопка',
+        icon: 'fa fa-hand-pointer-o',
+        blocks:[
+            {
+                id: 164,
+                default: 1,
+                position: 4100,
+                default_values: {}            
+            },            
+            {
+                id: 306,
+                default: 1,
+                position: 4200,
+                default_values: {}            
+            },            
+            {
+                id: 250,
+                default: 0,
+                position: 4300,
+                default_values: {
+                    hide_text: 0,
+                    mode: 3,
+                    show_btns:1,
+
+                }            
+            },            
+            
+        ],        
+        
+        group: [164, 306],
+        deleted: [64],
+        widget: 0
+    },
+    
+    
+    {
+        name: 'Текст',
+        icon: 'fa fa-align-left ',
+        blocks:[
+            {
+                id: 132,
+                default: 1,
+                position: 4800,
+                default_values: {
+                    block_style:'style_0',                    
+                    
+                }            
+            },            
+            {
+                id: 132,
+                default: 0,
+                position: 4850,
+                default_values: {
+                    block_style:'style_2',
+                    color:'#006699'
+                }            
+            },            
+            {
+                id: 132,
+                default: 0,
+                position: 4900,
+                default_values: {
+                    block_style:'style_3',                    
+                    color:'#3F7B16'
+                }            
+            },            
+            {
+                id: 132,
+                default: 0,
+                position: 4950,
+                default_values: {
+                    block_style:'style_4',                    
+                    color:'#FF6600'
+                }            
+            },            
+          
+            
+        ],        
+        
+        group: [164, 306],
+        deleted: [64],
+        widget: 0
+    },
+
+    
+    
+    
+    
+    {
+        name: 'Контент',
+        icon: 'fa fa-th-large',
+        
+        blocks:[
+         
+            {
+                id: 117,
+                default: 1,
+                position: 5300,
+                default_values: {}            
+            },            
+            {
+                id: 250,
+                default: 1,
+                position: 5400,
+                default_values: {}            
+            },            
+            {
+                id: 250,
+                default: 0,
+                position: 5500,
+                default_values: {
+                    mode:3
+                }            
+            },            
+            {
+                id: 226,
+                default: 1,
+                position: 5600,
+                default_values: {}            
+            }            
+        ],           
+        group: [138, 132, 117, 250, 226, 304, 305, 301],
+        deleted: [37, 36, 35, 34, 38, 32, 26, 49, 50, 17, 33, 40, 39, 150],
+        widget: 0
+    },
+    
+    {
+        name: 'Видео',
+        icon: 'fa fa-video-camera',
+        blocks:[
+            {
+                id: 138,
+                default: 1,
+                position: 6100,
+                default_values: {
+                    
+                }            
+            }, 
+            
+            {
+                id: 126,
+                default: 0,
+                position: 6150,
+                default_values: {
+                    show_price:0,
+                    extra_btn:0,
+                    like_slider:0,
+                    extra_images: 0,
+                    use_video:1,
+                    auto_slide:0,
+                    arr1: [
+                        {
+                            image1: 'image_221.jpg',
+                            image2: 'image_222.jpg',
+                            image3: 'image_223.jpg',
+                            image4: 'image_224.jpg',
+                            video1: 'https://youtu.be/Z2hpkW4Yj98',
+                            form_html1: '<div style="text-align:center; font-size:18px; padding:10px;">Замените HTML код</div><div style="text-align:center; font-size:12px; padding:10px;">Код сторонних поставщиков может не корректно отображаться в мобильной версии.</div>',
+                            form_html2: '<div style="text-align:center; font-size:18px; padding:10px;">Замените HTML код</div><div style="text-align:center; font-size:12px; padding:10px;">Код сторонних поставщиков может не корректно отображаться в мобильной версии.</div>',
+                            title1: 'Укажите услуги, которые вы предоставляете клиентам',
+                            price1: '25 000 руб.',
+                            price_descr1: 'Предложение ограничено! Успейте оформить заявку до конца декабря!',
+                            txt1: 'АКЦИЯ! Только до конца месяца: <br>Абсолютно все стандарты ISO по одной фиксированной стоимости! <br>Бесплатная доставка сертификатов по всей России',
+                            btn1: {
+                                title: 'Оставить заявку',
+                                color: '#006699',
+                                surround: 1,
+                                style: 5,
+                            },
+                            btn2: {
+                                title: 'Нет, спасибо!',
+                                color: '#993300',
+                                surround: 1,
+                                style: 5,
+                            },
+                            form1: [
+                                {
+                                    type: 'hidden',
+                                    title: 'Название формы',
+                                    description: '',
+                                    required: 0
+                                },
+                                {
+                                    type: 'text',
+                                    title: 'Введите имя',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'email',
+                                    title: 'Введите E-mail',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'phone',
+                                    title: 'Введите номер телефона',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'btn',
+                                    title: 'Отправить',
+                                    color: '#006699',
+                                    action: 'thanks',
+                                    surround: 1,
+                                    style: 5,
+                                    url: '',
+                                    amount: 0
+
+                                }
+                            ],
+                            form2: [
+                                {
+                                    type: 'hidden',
+                                    title: 'Название формы',
+                                    description: '',
+                                    required: 0
+                                },
+                                {
+                                    type: 'text',
+                                    title: 'Введите имя',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'email',
+                                    title: 'Введите E-mail',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'phone',
+                                    title: 'Введите номер телефона',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'btn',
+                                    title: 'Отправить',
+                                    color: '#006699',
+                                    action: 'thanks',
+                                    surround: 1,
+                                    style: 5,
+                                    url: '',
+                                    amount: 0
+
+                                }                        
+
+                            ]
+                        },
+                        
+                    ]                    
+                    
+                }            
+            },              
+            
+            {
+                id: 117,
+                default: 0,
+                position: 6200,
+                default_values: {
+                    image_or_video: 'video',
+                }            
+            },             
+            {
+                id: 250,
+                default: 0,
+                position: 6300,
+                default_values: {
+                    mode: 1,
+                }            
+            },             
+            {
+                id: 226,
+                default: 0,
+                position: 6400,
+                default_values: {
+                    use_video: 'use',
+                    float:'right'
+                }            
+            },             
+            {
+                id: 149,
+                default: 0,
+                position: 6500,
+                default_values: {
+                    like_slider: 0,
+                    auto_slide:0,
+                    mode:1,
+                    
+                }            
+            },             
+            
+            
+        ],        
+        
+        group: [],
+        deleted: [],
+        widget: 0
+    },     
+   
+    {
+        name: 'Блог',
+        icon: 'fa fa-rss',
+        blocks:[
+            {
+                id: 301,
+                default: 1,
+                position: 8100,
+                default_values: {
+                    
+                    
+                        arr1: [
+                            {
+                                image1: 'image_70.jpg',
+                                txt1: 'АКЦИЯ! Только до конца месяца: <br>Абсолютно все стандарты ISO по одной фиксированной стоимости! <br>Бесплатная доставка сертификатов по всей России',
+                                btn1: {
+                                    title: 'Оставить заявку',
+                                    color: '#006699',
+                                    surround: 1,
+                                    style: 5,
+                                    use_form: 0
+                                },
+                                form1: [
+                                    {
+                                        type: 'hidden',
+                                        title: 'Название формы',
+                                        description: '',
+                                        required: 0
+                                    },
+                                    {
+                                        type: 'text',
+                                        title: 'Введите имя',
+                                        description: '',
+                                        required: 1
+                                    },
+                                    {
+                                        type: 'email',
+                                        title: 'Введите E-mail',
+                                        description: '',
+                                        required: 1
+                                    },
+                                    {
+                                        type: 'phone',
+                                        title: 'Введите номер телефона',
+                                        description: '',
+                                        required: 1
+                                    },
+                                    {
+                                        type: 'btn',
+                                        title: 'Отправить',
+                                        color: '#006699',
+                                        action: 'thanks',
+                                        surround: 1,
+                                        style: 5,
+                                        url: '',
+                                        amount: 0
+
+                                    }
+                                ]
+                            },
+                            
+                        ]                    
+                    
+                    
+                    
+                }            
+            },            
+            {
+                id: 301,
+                default: 0,
+                position: 8200,
+                default_values: {
+                    image_size: '200x200',
+                }            
+            },            
+        ],        
+        group: [],
+        deleted: [],
+        widget: 0
+    },     
+    {
+        name: 'Слайдер',
+        icon: 'fa fa-arrows-h',
+        
+        
+        blocks:[
+            {
+                id: 312,
+                default: 1,
+                position: 9100,
+                default_values: {}            
+            },            
+            {
+                id: 151,
+                default: 1,
+                position: 9200,
+                default_values: {
+                    like_slider: 1,
+                    auto_slide: 1,
+                    
+                }            
+            },            
+            {
+                id: 126,
+                default: 1,
+                position: 9300,
+                default_values: {
+                    like_slider: 1,
+                    auto_slide: 1,
+                    
+                }            
+            },            
+            {
+                id: 149,
+                default: 1,
+                position: 9400,
+                default_values: {
+                    like_slider: 1,
+                    auto_slide: 1,
+                    
+                }            
+            },            
+            {
+                id: 149,
+                default: 0,
+                position: 9500,
+                default_values: {
+                    mode: 1,
+                    like_slider: 1,
+                    auto_slide: 0,
+                }            
+            },            
+        ],        
+        group: [312, 151, 126, 149, 118],
+        deleted: [],
+        widget: 0
+    },
+    {
+        name: 'Отзывы',
+        icon: 'fa fa-comments-o',
+        blocks:[
+            
+            
+            
+            {
+                id: 307,
+                default: 0,
+                position: 10090,
+                default_values: {
+
+                    show_btn:0,
+                    show_title:0,
+                    show_sub_title:0,
+                    
+                    col_title_1: 'Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Все материалы привозили и докупали сами, без моего напоминания. Я очень довольна. История с ремонтом наконец завершилась успешно. Спасибо вам большое!',
+                    col_title_2: 'Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Все материалы привозили и докупали сами, без моего напоминания. Я очень довольна. История с ремонтом наконец завершилась успешно. Спасибо вам большое!',
+                    col_title_3: 'Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Все материалы привозили и докупали сами, без моего напоминания. Я очень довольна. История с ремонтом наконец завершилась успешно. Спасибо вам большое!',
+
+                    image1: 'image_238.jpg',
+                    image2: 'image_65.jpg',
+                    image3: 'image_69.jpg',                    
+                    
+                    
+                    arr1: [
+                        {
+                            item_title: 'Наталья г. Челябинск'
+                        },
+
+                    ],
+                    arr2: [
+                        {
+                            item_title: 'Наталья г. Челябинск'
+                        },
+
+                    ],
+                    arr3: [
+                        {
+                            item_title: 'Наталья г. Челябинск'
+                        },
+
+                    ]
+                }            
+            },            
+            {
+                id: 118,
+                default: 1,
+                position: 10100,
+                default_values: {
+                    like_slider: 1,
+                    auto_slide: 1,
+                }            
+            },            
+            {
+                id: 128,
+                default: 0,
+                position: 10200,
+                default_values: {
+                    mode: 's120',
+                    border_radius: 1,
+                    show_title: 0,
+                    show_sub_title: 0,
+                    show_btns: 0,
+                    show_price: 0,
+                    arr1: [
+                        {
+                            extra_info1: '<span style="font-size:28px;">Название товара<br></span>Подробное описание продукта.<br>Здесь вы можете расписать:<ul><li>свойства товара,<br type="_moz"></li><li>параметры товара,<br type="_moz"></li><li>описание товара,</li><li>наличие на складе,</li><li>цвет,</li><li>количество.<br ></li></ul><p>Напишите их тут. И будет у вас не просто сайт, а интернет-магазин. <br></p>',
+                            extra_info2: '<span style="font-size:28px;">Название товара<br></span>Подробное описание продукта.<br>Здесь вы можете расписать:<ul><li>свойства товара,<br type="_moz"></li><li>параметры товара,<br type="_moz"></li><li>описание товара,</li><li>наличие на складе,</li><li>цвет,</li><li>количество.<br ></li></ul><p>Напишите их тут. И будет у вас не просто сайт, а интернет-магазин. <br></p>',
+                            extra_info3: '<span style="font-size:28px;">Название товара<br></span>Подробное описание продукта.<br>Здесь вы можете расписать:<ul><li>свойства товара,<br type="_moz"></li><li>параметры товара,<br type="_moz"></li><li>описание товара,</li><li>наличие на складе,</li><li>цвет,</li><li>количество.<br ></li></ul><p>Напишите их тут. И будет у вас не просто сайт, а интернет-магазин. <br></p>',
+                            form_html1: '<div style="text-align:center; font-size:18px; padding:10px;">Замените HTML код</div><div style="text-align:center; font-size:12px; padding:10px;">Код сторонних поставщиков может не корректно отображаться в мобильной версии.</div>',
+                            form_html2: '<div style="text-align:center; font-size:18px; padding:10px;">Замените HTML код</div><div style="text-align:center; font-size:12px; padding:10px;">Код сторонних поставщиков может не корректно отображаться в мобильной версии.</div>',
+                            form_html3: '<div style="text-align:center; font-size:18px; padding:10px;">Замените HTML код</div><div style="text-align:center; font-size:12px; padding:10px;">Код сторонних поставщиков может не корректно отображаться в мобильной версии.</div>',
+                            image1: 'image_235.jpg',
+                            image2: 'image_69.jpg',
+                            image3: 'image_85.jpg',
+
+                            image1_1: 'image_1.jpg',
+                            image1_2: 'image_2.jpg',
+                            image1_3: 'image_3.jpg',
+                            image2_1: 'image_4.jpg',
+                            image2_2: 'image_5.jpg',
+                            image2_3: 'image_6.jpg',
+                            image3_1: 'image_7.jpg',
+                            image3_2: 'image_8.jpg',
+                            image3_3: 'image_9.jpg',
+
+                            title1: 'Наталья г.Челябинск',
+                            title2: 'Наталья г.Челябинск',
+                            title3: 'Наталья г.Челябинск',
+                            price1: '2000 руб.',
+                            price2: '2000 руб.',
+                            price3: '2000 руб.',
+                            ico1: 'fa-linux',
+                            ico2: 'fa-hand-peace-o',
+                            ico3: 'fa-smile-o',
+                            c_ico1: 'video.png',
+                            c_ico2: 'umbrella.png',
+                            c_ico3: 'unicycle.png',
+                            txt1: 'Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Все материалы привозили и докупали сами, без моего напоминания. Я очень довольна. История с ремонтом наконец завершилась успешно. Спасибо вам большое!',
+                            txt2: 'Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Все материалы привозили и докупали сами, без моего напоминания. Я очень довольна. История с ремонтом наконец завершилась успешно. Спасибо вам большое!',
+                            txt3: 'Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Все материалы привозили и докупали сами, без моего напоминания. Я очень довольна. История с ремонтом наконец завершилась успешно. Спасибо вам большое!',
+                            btn1: {
+                                title: 'Узнать подробнее',
+                                color: '#006699',
+                                surround: 1,
+                                style: 5,
+                            },
+                            btn2: {
+                                title: 'Узнать подробнее',
+                                color: '#006699',
+                                surround: 1,
+                                style: 5,
+                            },
+                            btn3: {
+                                title: 'Узнать подробнее',
+                                color: '#006699',
+                                surround: 1,
+                                style: 5,
+                            },
+                            form1: [
+                                {
+                                    type: 'hidden',
+                                    title: 'Название формы',
+                                    description: '',
+                                    required: 0
+                                },
+                                {
+                                    type: 'text',
+                                    title: 'Введите имя',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'email',
+                                    title: 'Введите E-mail',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'phone',
+                                    title: 'Введите номер телефона',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'btn',
+                                    title: 'Отправить',
+                                    color: '#006699',
+                                    action: 'thanks',
+                                    url: '',
+                                    amount: 0,
+                                    surround: 1,
+                                    style: 5,
+
+                                }
+                            ],
+                            form2: [
+                                {
+                                    type: 'hidden',
+                                    title: 'Название формы',
+                                    description: '',
+                                    required: 0
+                                },
+                                {
+                                    type: 'text',
+                                    title: 'Введите имя',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'email',
+                                    title: 'Введите E-mail',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'phone',
+                                    title: 'Введите номер телефона',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'btn',
+                                    title: 'Отправить',
+                                    color: '#006699',
+                                    action: 'thanks',
+                                    url: '',
+                                    amount: 0,
+                                    surround: 1,
+                                    style: 5,
+
+                                }
+                            ],
+                            form3: [
+                                {
+                                    type: 'hidden',
+                                    title: 'Название формы',
+                                    description: '',
+                                    required: 0
+                                },
+                                {
+                                    type: 'text',
+                                    title: 'Введите имя',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'email',
+                                    title: 'Введите E-mail',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'phone',
+                                    title: 'Введите номер телефона',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'btn',
+                                    title: 'Отправить',
+                                    color: '#006699',
+                                    action: 'thanks',
+                                    url: '',
+                                    amount: 0,
+                                    surround: 1,
+                                    style: 5,
+
+                                }
+                            ]
+                        }
+                    ]
+                },                    
+                    
+                    
+            },            
+            {
+                id: 125,
+                default: 0,
+                position: 10300,
+                default_values: {
+                    show_title: 0,
+                    show_sub_title: 0,
+                    show_btns: 0,
+                    show_price: 0,
+                    image_size: 's90',
+                    arr1: [
+                                    {
+                                        image1: 'image_235.jpg',
+                                        image2: 'image_69.jpg',
+                                        form_html1: '<div style="text-align:center; font-size:18px; padding:10px;">Замените HTML код</div><div style="text-align:center; font-size:12px; padding:10px;">Код сторонних поставщиков может не корректно отображаться в мобильной версии.</div>',
+                                        form_html2: '<div style="text-align:center; font-size:18px; padding:10px;">Замените HTML код</div><div style="text-align:center; font-size:12px; padding:10px;">Код сторонних поставщиков может не корректно отображаться в мобильной версии.</div>',                    
+                                        title1: 'Наталья г.Челябинск',
+                                        title2: 'Наталья г.Челябинск',
+                                        price1: '200 руб.',
+                                        price2: '150 руб.',
+
+                                        ico1: 'fa-black-tie',
+                                        ico2: 'fa-black-tie',
+                                        c_ico1: 'video.png',
+                                        c_ico2: 'umbrella.png',
+
+                                        txt1: 'Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Все материалы привозили и докупали сами, без моего напоминания. Я очень довольна. История с ремонтом наконец завершилась успешно. Спасибо вам большое!',
+                                        txt2: 'Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Все материалы привозили и докупали сами, без моего напоминания. Я очень довольна. История с ремонтом наконец завершилась успешно. Спасибо вам большое!',
+                                        btn1: {
+                                            title: 'Заказать',
+                                            color: '#006699',
+                                            surround: 1,
+                                            style: 5
+                                        },
+                                        btn2: {
+                                            title: 'Заказать',
+                                            color: '#006699',
+                                            surround: 1,
+                                            style: 5
+                                        },
+                                        form1: [
+                                            {
+                                                type: 'hidden',
+                                                title: 'Название формы',
+                                                description: '',
+                                                required: 0
+                                            },
+                                            {
+                                                type: 'text',
+                                                title: 'Введите имя',
+                                                description: '',
+                                                required: 1
+                                            },
+                                            {
+                                                type: 'email',
+                                                title: 'Введите E-mail',
+                                                description: '',
+                                                required: 1
+                                            },
+                                            {
+                                                type: 'phone',
+                                                title: 'Введите номер телефона',
+                                                description: '',
+                                                required: 1
+                                            },
+                                            {
+                                                type: 'btn',
+                                                title: 'Отправить',
+                                                color: '#006699',
+                                                action: 'thanks',
+                                                url: '',
+                                                surround: 1,
+                                                style: 5,
+                                                amount: 0
+
+                                            }
+                                        ],
+                                        form2: [
+                                            {
+                                                type: 'hidden',
+                                                title: 'Название формы',
+                                                description: '',
+                                                required: 0
+                                            },
+                                            {
+                                                type: 'text',
+                                                title: 'Введите имя',
+                                                description: '',
+                                                required: 1
+                                            },
+                                            {
+                                                type: 'email',
+                                                title: 'Введите E-mail',
+                                                description: '',
+                                                required: 1
+                                            },
+                                            {
+                                                type: 'phone',
+                                                title: 'Введите номер телефона',
+                                                description: '',
+                                                required: 1
+                                            },
+                                            {
+                                                type: 'btn',
+                                                title: 'Отправить',
+                                                color: '#006699',
+                                                action: 'thanks',
+                                                url: '',
+                                                surround: 1,
+                                                style: 5,
+                                                amount: 0
+
+                                            }
+                                        ]
+                                    },
+                                    
+
+                                ]                    
+
+                    
+                    
+                    
+                }            
+            },
+            
+            {
+                id: 117,
+                default: 0,
+                position: 10400,
+                default_values: {
+                    
+                    image_size: '350x250',
+                    arr1: [
+                         {
+                             image1: 'image_235.jpg',
+                             video1: 'https://youtu.be/Z2hpkW4Yj98',
+                             descr1: 'Наталья г.Челябинск',
+                             txt1: 'Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Все материалы привозили и докупали сами, без моего напоминания. Я очень довольна. История с ремонтом наконец завершилась успешно. Спасибо вам большое!'
+                         },
+                         {
+                             image1: 'image_69.jpg',
+                             video1: 'https://youtu.be/Z2hpkW4Yj98',
+                             descr1: 'Наталья г.Челябинск',
+                             txt1: 'Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Все материалы привозили и докупали сами, без моего напоминания. Я очень довольна. История с ремонтом наконец завершилась успешно. Спасибо вам большое!'
+                         }
+                     ]                    
+                    
+                    
+                    
+                    
+                }            
+            },              
+            {
+                id: 149,
+                default: 0,
+                position: 10500,
+                default_values: {
+                    
+                    like_slider:0,
+                    auto_slide:0,
+                    show_title:0,
+                    show_sub_title:0,
+                    arr1: [
+                        {
+                            image1: 'image_235.jpg',
+                            image2: 'image_69.jpg',
+                            image3: 'image_85.jpg',
+                            video1: 'https://youtu.be/Z2hpkW4Yj98',
+                            video2: 'https://youtu.be/Z2hpkW4Yj98',
+                            video3: 'https://youtu.be/Z2hpkW4Yj98',
+                            title1: 'Наталья г. Челябинск',
+                            title2: 'Наталья г. Челябинск',
+                            title3: 'Максим г. Челябинск',
+                            subtitle1: 'Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Все материалы привозили и докупали сами, без моего напоминания. Я очень довольна. История с ремонтом наконец завершилась успешно. Спасибо вам большое!',
+                            subtitle2: 'Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Все материалы привозили и докупали сами, без моего напоминания. Я очень довольна. История с ремонтом наконец завершилась успешно. Спасибо вам большое!',
+                            subtitle3: 'Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Все материалы привозили и докупали сами, без моего напоминания. Я очень довольна. История с ремонтом наконец завершилась успешно. Спасибо вам большое!'
+
+                        },
+
+                    ]                    
+                    
+                    
+                    
+                    
+                    
+                }            
+            },              
+            
+        ],        
+        deleted: [],
+        widget: 0
+    },
+
+    
+    
+    
+    {
+        name: 'Каталог',
+        icon: 'fa fa-cart-arrow-down',
+        
+        blocks:[
+            {
+                id: 126,
+                default: 0,
+                position: 11100,
+                default_values: {
+                    show_price:1,
+                    extra_btn:1,
+                    like_slider:0,
+                    auto_slide:0,
+                    arr1: [
+                        {
+                            image1: 'image_221.jpg',
+                            image2: 'image_222.jpg',
+                            image3: 'image_223.jpg',
+                            image4: 'image_224.jpg',
+                            video1: 'https://youtu.be/Z2hpkW4Yj98',
+                            form_html1: '<div style="text-align:center; font-size:18px; padding:10px;">Замените HTML код</div><div style="text-align:center; font-size:12px; padding:10px;">Код сторонних поставщиков может не корректно отображаться в мобильной версии.</div>',
+                            form_html2: '<div style="text-align:center; font-size:18px; padding:10px;">Замените HTML код</div><div style="text-align:center; font-size:12px; padding:10px;">Код сторонних поставщиков может не корректно отображаться в мобильной версии.</div>',
+                            title1: 'Укажите услуги, которые вы предоставляете клиентам',
+                            price1: '25 000 руб.',
+                            price_descr1: 'Предложение ограничено! Успейте оформить заявку до конца декабря!',
+                            txt1: 'АКЦИЯ! Только до конца месяца: <br>Абсолютно все стандарты ISO по одной фиксированной стоимости! <br>Бесплатная доставка сертификатов по всей России',
+                            btn1: {
+                                title: 'Оставить заявку',
+                                color: '#006699',
+                                surround: 1,
+                                style: 5,
+                            },
+                            btn2: {
+                                title: 'Нет, спасибо!',
+                                color: '#993300',
+                                surround: 1,
+                                style: 5,
+                            },
+                            form1: [
+                                {
+                                    type: 'hidden',
+                                    title: 'Название формы',
+                                    description: '',
+                                    required: 0
+                                },
+                                {
+                                    type: 'text',
+                                    title: 'Введите имя',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'email',
+                                    title: 'Введите E-mail',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'phone',
+                                    title: 'Введите номер телефона',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'btn',
+                                    title: 'Отправить',
+                                    color: '#006699',
+                                    action: 'thanks',
+                                    surround: 1,
+                                    style: 5,
+                                    url: '',
+                                    amount: 0
+
+                                }
+                            ],
+                            form2: [
+                                {
+                                    type: 'hidden',
+                                    title: 'Название формы',
+                                    description: '',
+                                    required: 0
+                                },
+                                {
+                                    type: 'text',
+                                    title: 'Введите имя',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'email',
+                                    title: 'Введите E-mail',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'phone',
+                                    title: 'Введите номер телефона',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'btn',
+                                    title: 'Отправить',
+                                    color: '#006699',
+                                    action: 'thanks',
+                                    surround: 1,
+                                    style: 5,
+                                    url: '',
+                                    amount: 0
+
+                                }                        
+
+                            ]
+                        },
+                        
+                    ]                    
+                    
+                }            
+            },             
+         
+            
+            {
+                id: 200,
+                default: 1,
+                position: 11200,
+                default_values: {}            
+            },            
+            {
+                id: 201,
+                default: 1,
+                position: 11300,
+                default_values: {}            
+            },            
+            {
+                id: 125,
+                default: 1,
+                position: 11400,
+                default_values: {
+                    show_price:1,
+                    show_btns:1,
+                    image_size: 's150'
+                    
+                }            
+            },  
+            {
+                id: 128,
+                default: 1,
+                position: 11500,
+                default_values: {}            
+            },               
+            
+            {
+                id: 124,
+                default: 1,
+                position: 11600,
+                default_values: {}            
+            }, 
+            {
+                id: 314,
+                default: 0,
+                position: 11700,
+                default_values: {}            
+            },             
+            
+            {
+                id: 126,
+                default: 0,
+                position: 11800,
+                default_values: {
+                    show_price:1,
+                    extra_btn:0,
+                    like_slider:0,
+                    extra_images: 1,
+                    auto_slide:0,
+                    arr1: [
+                        {
+                            image1: 'image_221.jpg',
+                            image2: 'image_222.jpg',
+                            image3: 'image_223.jpg',
+                            image4: 'image_224.jpg',
+                            video1: 'https://youtu.be/Z2hpkW4Yj98',
+                            form_html1: '<div style="text-align:center; font-size:18px; padding:10px;">Замените HTML код</div><div style="text-align:center; font-size:12px; padding:10px;">Код сторонних поставщиков может не корректно отображаться в мобильной версии.</div>',
+                            form_html2: '<div style="text-align:center; font-size:18px; padding:10px;">Замените HTML код</div><div style="text-align:center; font-size:12px; padding:10px;">Код сторонних поставщиков может не корректно отображаться в мобильной версии.</div>',
+                            title1: 'Укажите услуги, которые вы предоставляете клиентам',
+                            price1: '25 000 руб.',
+                            price_descr1: 'Предложение ограничено! Успейте оформить заявку до конца декабря!',
+                            txt1: 'АКЦИЯ! Только до конца месяца: <br>Абсолютно все стандарты ISO по одной фиксированной стоимости! <br>Бесплатная доставка сертификатов по всей России',
+                            btn1: {
+                                title: 'Оставить заявку',
+                                color: '#006699',
+                                surround: 1,
+                                style: 5,
+                            },
+                            btn2: {
+                                title: 'Нет, спасибо!',
+                                color: '#993300',
+                                surround: 1,
+                                style: 5,
+                            },
+                            form1: [
+                                {
+                                    type: 'hidden',
+                                    title: 'Название формы',
+                                    description: '',
+                                    required: 0
+                                },
+                                {
+                                    type: 'text',
+                                    title: 'Введите имя',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'email',
+                                    title: 'Введите E-mail',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'phone',
+                                    title: 'Введите номер телефона',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'btn',
+                                    title: 'Отправить',
+                                    color: '#006699',
+                                    action: 'thanks',
+                                    surround: 1,
+                                    style: 5,
+                                    url: '',
+                                    amount: 0
+
+                                }
+                            ],
+                            form2: [
+                                {
+                                    type: 'hidden',
+                                    title: 'Название формы',
+                                    description: '',
+                                    required: 0
+                                },
+                                {
+                                    type: 'text',
+                                    title: 'Введите имя',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'email',
+                                    title: 'Введите E-mail',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'phone',
+                                    title: 'Введите номер телефона',
+                                    description: '',
+                                    required: 1
+                                },
+                                {
+                                    type: 'btn',
+                                    title: 'Отправить',
+                                    color: '#006699',
+                                    action: 'thanks',
+                                    surround: 1,
+                                    style: 5,
+                                    url: '',
+                                    amount: 0
+
+                                }                        
+
+                            ]
+                        },
+                        
+                    ]                    
+                    
+                }            
+            },             
+            
+            
+           
+            
+        ],        
+        
+        group: [128, 200, 201, 125, 124],
+        deleted: [14, 13, 12, 11, 10, 15, 29, 24, 25, 27, 28, 127],
+        widget: 0
+    },
+    
+    {
+        name: 'Галерея',
+        icon: 'fa fa-photo',
+        blocks:[
+            {
+                id: 143,
+                default: 1,
+                position: 15100,
+                default_values: {}            
+            },
+            {
+                id: 143,
+                default: 0,
+                position: 15150,
+                default_values: {
+                    image_size: '300x450',
+                    arr1: [
+                            {
+                                image_box: {
+                                    title: 'Заголовок',
+                                    descr: 'Описание',
+                                    image: 'image_12005.jpg',
+                                    link: '',
+                                }
+                            },
+                            {
+                                image_box: {
+                                    title: 'Заголовок',
+                                    descr: 'Описание',
+                                    image: 'image_12021.jpg',
+                                    link: '',
+                                }
+                            },
+                            {
+                                image_box: {
+                                    title: 'Заголовок',
+                                    descr: 'Описание',
+                                    image: 'image_12029.jpg',
+                                    link: '',
+                                }
+                            }
+                            
+                        ]
+
+                    },
+                    
+                    
+            },            
+            
+            {
+                id: 148,
+                default: 1,
+                position: 15200,
+                default_values: {}            
+            },            
+            {
+                id: 147,
+                default: 1,
+                position: 15300,
+                default_values: {}            
+            },            
+            {
+                id: 310,
+                default: 1,
+                position: 15400,
+                default_values: {
+                    
+                    
+                    
+                    
+                }            
+            },            
+            {
+                id: 313,
+                default: 1,
+                position: 15500,
+                default_values: {}            
+            },            
+            {
+                id: 315,
+                default: 1,
+                position: 15600,
+                default_values: {}            
+            },            
+          
+           
+            
+        ],        
+        
+        group: [143, 148, 147, 310, 313, 315],
+        deleted: [43, 48, 47, 46, 45, 44, 42, 41],
+        widget: 0
+    },    
+    
+    
+    
+    
+    {
+        name: 'Тарифы',
+        icon: 'fa fa-table',
+        blocks:[
+            {
+                id: 307,
+                default: 1,
+                position: 7006,
+                default_values: {}            
+            },            
+            {
+                id: 308,
+                default: 1,
+                position: 7007,
+                default_values: {}            
+            },            
+            {
+                id: 309,
+                default: 1,
+                position: 7008,
+                default_values: {}            
+            },            
+            {
+                id: 318,
+                default: 0,
+                position: 7100,
+                default_values: {}            
+            },            
+            {
+                id: 319,
+                default: 0,
+                position: 7200,
+                default_values: {}            
+            },            
+          
+           
+            
+        ],         
+        
+        group: [307, 308, 309],
+        deleted: [],
+        widget: 0
+    },
+    {
+        name: 'Преимущества',
+        icon: 'fa fa-th-list',
+        blocks:[
+            {
+                id: 314,
+                default: 1,
+                position: 12100,
+                default_values: {
+                    show_btns: 0,
+                    icon_colors: '#FFB700'
+                    
+                    
+                }            
+            },            
+            {
+                id: 152,
+                default: 1,
+                position: 12200,
+                default_values: {}            
+            },            
+            {
+                id: 121,
+                default: 1,
+                position: 12300,
+                default_values: {}            
+            },            
+            {
+                id: 151,
+                default: 0,
+                position: 12400,
+                default_values: {
+                    like_slider: 0,
+                    auto_slide: 0,
+                    title: 'Наши сертификаты',
+                    show_sub_title: 0,
+                    arr1: [
+                        {
+                            image1: 'cert.jpg',
+                            image2: 'cert.jpg',
+                            image3: 'cert.jpg',
+                            image4: 'cert.jpg',
+                            title1: 'Сертификат',
+                            title2: 'Сертификат',
+                            title3: 'Сертификат',
+                            title4: 'Сертификат',
+                            subtitle1: '',
+                            subtitle2: '',
+                            subtitle3: '',
+                            subtitle4: ''
+
+                        },
+
+                    ]                    
+                    
+                }            
+            },
+            {
+                id: 201,
+                default: 0,
+                position: 12500,
+                default_values: {
+                    show_btns:0,
+                    show_price:0,
+                    mode:'c_icon',
+                    
+                    
+                }            
+            },             
+            
+            {
+                id: 201,
+                default: 0,
+                position: 12700,
+                default_values: {
+                    show_btns:0,
+                    show_price:0,
+                    border_radius:1,
+                    mode:'icon',
+                    show_descr:0,
+                    icon_colors: '#FF7600'
+                    
+                    
+                }            
+            },  
+            
+            
+            {
+                id: 201,
+                default: 0,
+                position: 12800,
+                default_values: {
+                    show_btns:0,
+                    show_price:0,
+                    border_radius:1,
+                    mode:'s120',
+                    show_descr:0
+                    
+                }            
+            },             
+            {
+                id: 200,
+                default: 0,
+                position: 12900,
+                default_values: {
+                    show_btns:0,
+                    show_price:0,
+                    mode:'c_icon',
+                    
+                    
+                }            
+            },              
+            {
+                id: 200,
+                default: 0,
+                position: 12910,
+                default_values: {
+                    show_btns:0,
+                    show_price:0,
+                    mode:'s120',
+                    
+                }            
+            },            
+            {
+                id: 128,
+                default: 0,
+                position: 12920,
+                default_values: {
+                    show_btns:0,
+                    show_price:0,
+                    mode:'c_icon',
+                    
+                }            
+            },            
+            {
+                id: 125,
+                default: 0,
+                position: 12930,
+                default_values: {
+
+                    
+                }            
+            },            
+            
+          
+           
+            
+        ],          
+        
+        group: [314, 152, 121, 161, 1002],
+        deleted: [51, 18, 52, 21, 23, 22, 20, 30, 31, 61],
+        widget: 0
+
+    },
+    
+    {
+        name: 'Социальные кнопки',
+        icon: 'fa fa-share-alt',
+        blocks:[
+            {
+                id: 1002,
+                default: 1,
+                position: 13100,
+                default_values: {}            
+            },            
+            
+        ],        
+        group: [],
+        deleted: [],
+        widget: 0
+    },
+    {
+        name: 'Счетчик',
+        icon: 'fa fa-clock-o',
+        blocks:[
+            {
+                id: 161,
+                default: 1,
+                position: 14100,
+                default_values: {}            
+            },              
+            
+            
+            
+        ],        
+        group: [],
+        deleted: [],
+        widget: 0
+    },
+    
+    
+
+    {
+        name: 'Карта',
+        icon: 'fa fa-map-marker',
+        
+        blocks:[
+            {
+                id: 162,
+                default: 1,
+                position: 16100,
+                default_values: {}            
+            },            
+            {
+                id: 162,
+                default: 0,
+                position: 16200,
+                default_values: {
+                    show_text:0
+                    
+                    
+                }            
+            },            
+            {
+                id: 303,
+                default: 1,
+                position: 16300,
+                default_values: {}            
+            },            
+        ],         
+        
+        group: [162, 303],
+        deleted: [62],
+        widget: 0
+    },
+
+ {
+        name: 'Раздел FAQ',
+        icon: 'fa fa-question-circle',
+        blocks:[
+            {
+                id: 304,
+                default: 1,
+                position: 7100,
+                default_values: {}            
+            },            
+            {
+                id: 304,
+                default: 0,
+                position: 7200,
+                default_values: {
+                    show_image:0
+                }            
+            },            
+            {
+                id: 305,
+                default: 1,
+                position: 7300,
+                default_values: {}            
+            },            
+            {
+                id: 305,
+                default: 0,
+                position: 7400,
+                default_values: {
+                    show_image:1
+                    
+                    
+                    
+                }            
+            },            
+        ],        
+        
+        group: [],
+        deleted: [],
+        widget: 0
+    },         
+    
+    {
+        name: 'Виджет NoExit',
+        icon: 'fa fa-code',
+        blocks:[
+            {
+                id: 1000,
+                default: 1,
+                position: 11001,
+                default_values: {}            
+            },            
+           
+        ],         
+        group: [1000],
+        deleted: [],
+        widget: 1
+    },
+    {
+        name: 'Виджет Popup',
+        icon: 'fa fa-code',
+        blocks:[
+            {
+                id: 1001,
+                default: 1,
+                position: 12001,
+                default_values: {}            
+            },            
+        ],          
+        group: [1001],
+        deleted: [],
+        widget: 1
+    },
+    {
+        name: 'Плавающий блок',
+        icon: 'fa fa-code',
+        blocks:[
+            {
+                id: 1003,
+                default: 1,
+                position: 13001,
+                default_values: {}            
+            },            
+        ],         
+        group: [1003],
+        deleted: [],
+        widget: 1
+    },
+    {
+        name: 'Блок ссылка',
+        icon: 'fa fa-external-link',
+        blocks:[
+            {
+                id: 316,
+                default: 1,
+                position: 15001,
+                default_values: {}            
+            },            
+        ],        
+        widget: 0
+    },
+    {
+        name: 'Редактор кода',
+        icon: 'fa fa-code',
+        blocks:[
+            {
+                id: 163,
+                default: 1,
+                position: 14001,
+                default_values: {}            
+            },            
+        ],        
+        group: [163],
+        deleted: [63],
+        widget: 0
+    },
+    {
+        name: 'Этапы работы',
+        icon: 'fa fa-list',
+        blocks:[
+            {
+                id: 317,
+                default: 1,
+                position: 16001,
+                default_values: {}            
+            },            
+        ],        
+        group: [],
+        deleted: [],
+        widget: 0
+    },
+];
+

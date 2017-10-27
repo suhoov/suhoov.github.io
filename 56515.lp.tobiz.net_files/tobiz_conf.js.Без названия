@@ -1,0 +1,77 @@
+/**
+ * @license Copyright (c) 2003-2016, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md or http://ckeditor.com/license
+ */
+
+CKEDITOR.editorConfig = function( config ) {
+	// Define changes to default configuration here. For example:
+	config.language = 'ru';
+//config.uiColor = '#AADC6E';
+	//config.plugins = 'youtube,dialogui,dialog,about,a11yhelp,dialogadvtab,basicstyles,bidi,blockquote,clipboard,button,panelbutton,panel,floatpanel,colorbutton,colordialog,menu,contextmenu,resize,toolbar,elementspath,enterkey,entities,popup,filebrowser,find,fakeobjects,floatingspace,listblock,richcombo,font,format,horizontalrule,htmlwriter,wysiwygarea,image,indent,indentblock,indentlist,justify,menubutton,link,list,liststyle,magicline,maximize,pastetext,pastefromword,removeformat,selectall,showblocks,showborders,sourcearea,specialchar,stylescombo,tab,table,tabletools,undo,wsc';
+	//config.skin = 'moono';
+        
+        
+	config.extraPlugins = 'lineheight';
+	config.autoParagraph = false;
+
+	//config.extraPlugins = 'pastefromword';
+        config.extraPlugins = 'indent';
+
+
+
+//    config.pasteFromWordPromptCleanup	= true;
+//    config.pasteFromWordCleanupFile = true;
+//    config.pasteFromWordRemoveFontStyles = true;
+//    config.pasteFromWordRemoveStyles = true;
+//    
+//    config.pasteFromWordPromptCleanup	= false;
+//    config.pasteFromWordCleanupFile = false;
+//    config.pasteFromWordRemoveFontStyles = false;
+//    config.pasteFromWordRemoveStyles = false;
+    
+    
+    
+    //	config.pasteFromWordNumberedHeadingToList = true;
+    
+    
+    config.font_names = 'Ubuntu/Ubuntu;' + config.font_names;
+    config.font_names = 'Russo One/Russo One;' + config.font_names;
+    config.font_names = 'Poiret One/Poiret One;' + config.font_names;
+    config.font_names = 'Playfair Display SC/Playfair Display SC;' + config.font_names;
+    config.font_names = 'Open Sans Condensed/Open Sans Condensed;' + config.font_names;
+    config.font_names = 'Neucha/Neucha;' + config.font_names;
+    config.font_names = 'Jura/Jura;' + config.font_names;
+    config.font_names = 'Forum/Forum;' + config.font_names;
+    config.font_names = 'Cormorant Infant/Cormorant Infant;' + config.font_names;
+    config.font_names = 'Comfortaa/Comfortaa;' + config.font_names;
+    config.font_names = 'PT Sans Narrow/PT Sans Narrow;' + config.font_names;
+    config.font_names = 'PT Sans/PT Sans;' + config.font_names;
+    
+    //new
+    config.font_names = 'Ruslan Display/Ruslan Display;' + config.font_names;
+    config.font_names = 'Playfair Display SC/Playfair Display SC;' + config.font_names;
+    config.font_names = 'Lobster/Lobster;' + config.font_names;
+    config.font_names = 'EB Garamond/EB Garamond;' + config.font_names;
+    config.font_names = 'Philosopher/Philosopher;' + config.font_names;
+    config.font_names = 'Cormorant Garamond/Cormorant Garamond;' + config.font_names;
+    config.font_names = 'Cormorant SC/Cormorant SC;' + config.font_names;
+    config.font_names = 'Cormorant Unicase/Cormorant Unicase;' + config.font_names;
+    config.font_names = 'El Messiri/El Messiri;' + config.font_names;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+};
